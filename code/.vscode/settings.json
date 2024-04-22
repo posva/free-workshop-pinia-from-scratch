@@ -1,0 +1,25 @@
+{
+  "files.exclude": {
+    "node_modules": true,
+    "coverage": true,
+    "dist": true,
+    "LICENSE.md": true,
+    "LICENSE": true,
+    "index.html": true,
+    "postcss.config.js": true,
+    "src/**/.internal": true,
+    "src/utils": true,
+    "src/layouts": true,
+    "src/components/Layout.vue": true,
+    "src/views": true,
+    "src/*.ts": true,
+    "src/*.css": true,
+    "src/*.vue": true,
+    "tests": true,
+    "server.mjs": true,
+    "auto-imports.d.ts": true,
+    "components.d.ts": true,
+    "typed-router.d.ts": true,
+    ".eslintrc-auto-imports.json": true
+  }
+}
