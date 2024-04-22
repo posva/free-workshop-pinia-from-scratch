@@ -5,6 +5,7 @@
 - Recent Node version. Recommended the latest LTS version
 - Recent npm version. Recommended the version installed with LTS node
 - pnpm v8 (**required** to install the dependencies in this project)
+  - I recommend you to use `corepack` (comes with Node) with `corepack enable` and then, within this `code/` folder, run `corepack prepare pnpm@8.6.4 --activate`
 - (Recommended) `ni`/`nr` from [@antfu/ni](https://github.com/antfu/ni) to easily add packages and run commands
 - If you are using VSCode, make sure to **disable Vetur and install all recommended extensions** with
   `Shift + cmd + P` + `show recommended extensions`.
